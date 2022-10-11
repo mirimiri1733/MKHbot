@@ -4,7 +4,6 @@ import json
 import logging
 import asyncio
 
-import dill as pickle
 from os import path
 
 logging.basicConfig(level=logging.INFO)
