@@ -2,7 +2,6 @@ import discord
 from discord.ext import commands, tasks
 import json
 import logging
-import aiofiles
 import asyncio
 
 import dill as pickle
