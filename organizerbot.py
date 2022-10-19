@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands, tasks
 import json
 import logging
+import aiofiles
 import asyncio
 
 import dill as pickle
@@ -17,7 +18,7 @@ initial_extensions = ['cogs.TournamentManager', 'cogs.Tables',
                       'cogs.Registration', 'cogs.Results',
                       'cogs.TeamManagement']
 
-
+    
 
 if path.exists('tournament_data.pkl'):
     with open('tournament_data.pkl', 'rb') as backupFile:
