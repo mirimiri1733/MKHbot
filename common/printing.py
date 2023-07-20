@@ -1,5 +1,5 @@
 #all lower case
-print_formats = ['mkc', 'mkb', 'summit', 'none']
+print_formats = ['mkc', 'mkb', 'summit', 'none''mkh']
 
 async def printSummit(ctx, rooms, roomnum=0):
     def playerStr(player):
